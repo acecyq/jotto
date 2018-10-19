@@ -8,6 +8,7 @@
     "enzyme-adapter-react-16": "^1.6.0",
     "jest": "^23.6.0",
     "jest-enzyme": "^7.0.0",
+    "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.7",
@@ -29,5 +30,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "check-prop-types": "^1.1.2"
+  }
 }
