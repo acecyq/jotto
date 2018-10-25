@@ -1,5 +1,8 @@
 {
   "name": "jotto",
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>src/setupTests.js"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
