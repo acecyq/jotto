@@ -1,13 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { createStore } from 'redux';
-import { connect } from 'react-redux';
 
 import { findByAttr } from '../test/testUtils';
 import Input from './Input';
 import Reducer from './reducers/Index';
 
-const setup = (newState) => {
+const setup = () => {
 	const store = createStore(Reducer);
 	return shallow(<Input store={store} />);
 };

@@ -2,7 +2,7 @@ import actionTypes from '../actions/ActionTypes';
 
 const startState = {
 	success: false
-}
+};
 
 export default (state=startState, action) => {
 	switch (action.type) {
@@ -11,7 +11,6 @@ export default (state=startState, action) => {
 				...state,
 				success: true
 			};
-			break;
 		default:
 			return state;
 	}

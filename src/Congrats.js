@@ -17,9 +17,8 @@ Congrats.propTypes = {
 	success: PropTypes.bool.isRequired
 }
 
-// const mapStateToProps = state => ({
-// 	success: state.success
-// });
+const mapStateToProps = state => ({
+	success: state.success
+});
 
-// export default connect(mapStateToProps)(Congrats);
-export default Congrats;
+export default connect(mapStateToProps)(Congrats);
